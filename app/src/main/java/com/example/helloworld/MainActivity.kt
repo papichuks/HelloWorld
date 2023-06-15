@@ -13,6 +13,7 @@ class MainActivity : AppCompatActivity() {
 
         button.setOnClickListener {
             Toast.makeText(this, "Hello to you too!", Toast.LENGTH_SHORT).show()
+            button.setBackgroundColor(getResources().getColor(R.color.purple_200))
         }
     }
 }
